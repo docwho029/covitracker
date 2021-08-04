@@ -1,0 +1,120 @@
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Poppins";
+  line-height: 1.6;
+  /* background-color: #333; */
+}
+
+.section-one {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left:0;
+
+  
+}
+
+.intro-content {
+  position: absolute;
+  bottom: 0;
+  right: 2em;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.intro-content h1 {
+  margin-top: 40vh;
+  font-size: 5rem;
+  font-weight: 700;
+  background-image: linear-gradient(
+    -90deg,
+    rgba(255, 138, 229, 1) 0%,
+    rgba(176, 109, 225, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  align-self: flex-end;
+}
+
+.intro-content p {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  border: none;
+  /* width: auto; */
+  cursor: pointer;
+  /* margin: 0 1em 1.75em 1.75em; */
+
+  margin-left:1em;
+  margin-right: 1em;
+  background-color: rgba(255, 138, 229, 1);
+  color: #1a1a1a;
+  transition: all 0.4s;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.2em;
+  align-items: baseline;
+  /* margin-right: 3em; */
+}
+
+.btn-container-inside-container {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.circles-left, .circles-right {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-between;
+    gap: 0.1em;
+    width: 14%;
+}
+
+.btn:hover {
+  background-color: rgba(176, 109, 225, 1);
+  color: #fff;
+}
+
+.circle-small {
+  height: 0.7em;
+  width: 0.7em;
+  background-color: #fff;
+  border-radius: 50%;
+  background-color: rgba(255, 138, 229, 1);
+}
+
+
+
+#creds {
+  color: #fff;
+  margin-top: 2em;
+  font-size: 1rem;
+}

@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#section-two{
+    display: none;
+    opacity: 0;
+    /* transition:all 1s; */
+}
+
+#section-one {
+    display: block;
+    opacity:1;
+    /* transition:all 1s; */
+}
+
+#blog {
+    display: none;
+    opacity: 0;
+}
+#locate {
+    display: none;
+    opacity: 0;
+}
+
+#blog, #locate, #data {
+    position: absolute;
+    top:45%;
+}
